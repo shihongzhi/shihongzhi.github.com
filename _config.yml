@@ -1,0 +1,15 @@
+auto:	          true
+
+markdown:         rdiscount
+pygments:         true
+paginate:         10
+permalink:        /:categories/:year/:month/:day/:title/
+
+title:            "FreeX"
+url:              http://shihongzhi.com
+feed:             /feed.xml
+author:
+    name:         ShiHongzhi
+    twitter:      twitter.com/shihongzhi
+description:      "FreeX"
+copyright:        "CopryRight ShiHongzhi 2012-Now by GitHub and Jekyll"
