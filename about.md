@@ -5,8 +5,7 @@ category: blog
 description: 关于我
 ---
 
-### 喂喂，这是我啊。 ###
-![AboutMe](/images/about.jpg)
+### 我 ###
 
 
 ### 联系 ###
