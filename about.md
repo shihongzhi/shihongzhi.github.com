@@ -11,7 +11,7 @@ description: 关于我
 
 爱骑行，天秤闷骚男。
 
-喜欢看上去不错但美得没有攻击性的女人，心中的女神:[汤唯](http://www.douban.com/photos/album/48712622/)。
+喜欢恬静淡雅且美得没有攻击性的女人，心中的女神:[汤唯](http://www.douban.com/photos/album/48712622/)。
 
 自以为是个Geek，不过是伪的。
 
