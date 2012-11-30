@@ -2,7 +2,7 @@
 layout:     post
 title:      Google Spanner学习笔记
 category: tech
-description: Google Spanner学习笔记
+description: 最近初略的看了一下Google Spanner的论文，对大数据的研究才刚刚开始，下面是我的一些载录
 tags: 大规模, Spanner
 ---
 

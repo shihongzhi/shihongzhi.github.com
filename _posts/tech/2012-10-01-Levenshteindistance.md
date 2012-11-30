@@ -2,7 +2,7 @@
 layout:     post
 title:      Levenshtein distance之python实现
 category: tech
-description: Levenshtein distance之python实现
+description: 当我们在用搜索引擎(google，百度)，或者有道字典时，如果我们的输错了关键字时......
 tags: python, 算法
 ---
 

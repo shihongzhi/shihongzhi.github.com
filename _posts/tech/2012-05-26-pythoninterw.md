@@ -2,7 +2,7 @@
 layout:     post
 title:      两道python面试题
 category: tech
-description: 两道python面试题
+description: 最近做了两道知乎的面试题，收获还是比较大的。
 tags: python, interview
 ---
 
