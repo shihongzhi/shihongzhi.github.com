@@ -85,14 +85,14 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 #mycard .name{text-align:center;background-color:#3B5997}
 #mycard .name .link-icon{color:#fff;font-size:38px;font-weight:bold;padding-top:0}
 #mycard .name a.link-icon:hover {text-decoration:none}
-#mycard .blog{background-color:#D6B301}
-#mycard .blog .link-icon span {background-position:-76px -15px;}
+#mycard .tech{background-color:#D6B301}
+#mycard .tech .link-icon span {background-position:-76px -15px;}
 #mycard .project{background-color:#55B00D}
 #mycard .project .link-icon span {background-position:-10px -15px;}
 #mycard .wiki{background-color:#00B5E2}
 #mycard .wiki .link-icon span {background-position:-10px -75px;}
-#mycard .opinion{background-color:#00B5E2}
-#mycard .opinion .link-icon span {background-position:-150px -75px;}
+#mycard .gossip{background-color:#00B5E2}
+#mycard .gossip .link-icon span {background-position:-150px -75px;}
 #mycard .about{background-color:#E75F21}
 #mycard .about .link-icon span {background-position:-150px -15px;}
 #mycard .rss{margin-bottom:0;background-color:#fff}

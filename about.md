@@ -3,9 +3,6 @@ layout: page
 title: About ShiHongzhi
 ---
 ### 我是谁 ###
-![about]({{ BASE_PATH }}/images/about.jpg)
-上图是在茶卡盐湖拍摄的照片。
-
 爱骑行，天秤闷骚男。
 
 喜欢恬静淡雅且美得没有攻击性的女人，心中的女神:[汤唯](http://www.douban.com/photos/album/48712622/)。
