@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Levenshtein distance之python实现
-category: blog
+category: tech
 description: Levenshtein distance之python实现
 tags: python, 算法
 ---

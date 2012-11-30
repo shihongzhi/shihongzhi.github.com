@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Google Spanner学习笔记
-category: blog
+category: tech
 description: Google Spanner学习笔记
 tags: 大规模, Spanner
 ---

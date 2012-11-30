@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      大规模数据学习小结
-category: blog
+category: tech
 description: 大规模数据学习小结
 tags: 大规模, 数据结构, 算法
 ---

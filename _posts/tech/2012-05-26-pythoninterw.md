@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      两道python面试题
-category: blog
+category: tech
 description: 两道python面试题
 tags: python, interview
 ---
