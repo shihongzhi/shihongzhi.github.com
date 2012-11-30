@@ -1,12 +1,9 @@
 ---
-layout:     page
-title:      关于我
-category: blog
-description: 关于我
+layout: page
+title: About ShiHongzhi
 ---
-
 ### 我是谁 ###
-![about]({{ BASE_PATH }}/images/11.jpg)
+![about]({{ BASE_PATH }}/images/about.jpg)
 上图是在茶卡盐湖拍摄的照片。
 
 爱骑行，天秤闷骚男。
@@ -43,3 +40,15 @@ description: 关于我
 [新浪微博](http://weibo.com/shiboss)
 
 [豆瓣](http://www.douban.com/people/shiboss/)
+
+最近看过：
+<div><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="650" height="505" id="passing" > <param name="movie" value="http://www.douban.com/doushow/shiboss/collection_latest_movie|book_15_5_medium_logo_noself/doushow.swf" /> <param name="quality" value="high" /> <param name="scale" value="noscale"/> <param name="align" value="tl"/> <param name="wmode" value="transparent"/> <embed src="http://www.douban.com/doushow/shiboss/collection_latest_movie|book_15_5_medium_logo_noself/doushow.swf" wmode="transparent" quality="high" width="650" height="505" name="passing" scale="noscale" align="tl" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> </object></div>
+
+<div id="disqus_container"> 
+    <div id="disqus_thread"></div>
+</div> 
+
+<script type="text/javascript">
+    window.disqus_shortname = 'freex'; // required: replace example with your forum shortname
+    $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
+</script>

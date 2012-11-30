@@ -2,14 +2,17 @@ auto:	          true
 
 markdown:         rdiscount
 pygments:         true
-paginate:         10
-permalink:        /:categories/:year/:month/:day/:title/
+paginate:         6
+permalink:        /:title
 
-title:            "FreeX"
+title:            ShiHongzhi's Blog
 url:              http://shihongzhi.com
-feed:             /feed.xml
+feed:             /atom.xml
 author:
     name:         ShiHongzhi
-    twitter:      twitter.com/shihongzhi
-description:      "FreeX"
-copyright:        "CopryRight ShiHongzhi 2012-Now by GitHub and Jekyll"
+    twitter:      twitter.com/shiboss
+description:      "ShiHongzhi\'s Blog"
+author_info:      <a href="http://shihongzhi.com/about">ShiHongzhi</a>
+
+copyright:
+    - Design by <a href="http://beiyuu.com/about" title="BeiYuu" target="_blank">BeiYuu</a> &copy; Copyright 2012
