@@ -17,7 +17,7 @@ tags: python, 算法
 其DP公式为：
 
 ![Levenshtein Distance DP公式][img-reg]
-[img-reg]:{{ BASE_PATH }}/images/2012/LevenshteinDP.jpg
+[img-reg]:/images/2012/LevenshteinDP.jpg
 
 可以注意到Levenshtein Distance算法没有考虑交换的操作，比如AC-->CA，如果用Levenshtein来计算的话L(AC, CA) = 2。但是按照常识AC-->CA的距离应该只是1而已，因为A与C只需要进行一次交换的操作就达到目的了。
 

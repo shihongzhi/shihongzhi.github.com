@@ -48,7 +48,7 @@ B\*树是B+树的变种，在B+ 树非根和非叶子结点再增加指向兄弟
 R树是B树在高维空间的扩展，也是一棵平衡树。在二维情况下的具体组织结构如下图所示：
 
 ![R树][R-img-reg]
-[R-img-reg]:{{ BASE_PATH }}/images/2012/R-tree.jpg
+[R-img-reg]:/images/2012/R-tree.jpg
 
 R树通过MBR(Minimal Bounding Rectangle)的方法进行空间分割。
 
@@ -69,7 +69,7 @@ LSM-Tree通过使用某种算法(两组件C0C1及多组件算法)，对索引变
 下图为LSM-Tree的插入过程：
 
 ![LSM-Tree][LSM-img-reg]
-[LSM-img-reg]:{{ BASE_PATH }}/images/2012/LSM-tree.jpg
+[LSM-img-reg]:/images/2012/LSM-tree.jpg
 
 上图一个具有组件C0，C1，C2…Ck-1和Ck的多组件LSM-tree，索引树的大小伴随着下标的增加而增大，其中只有C0是驻留在内存中的，其他则是在磁盘上。在所有的组件对(Ci-1,Ci)之间都有一个异步的rolling merge过程负责在较小的组件Ci-1超过阈值大小时，将它的记录移到Ci中
 
@@ -113,12 +113,12 @@ Rolling merge将记录的插入批量化了。并不是一个记录就进行一�
 下图是包含10个元素的Fractal Tree Indexes:
 
 ![fractal-Tree][fractal10-img-reg]
-[fractal10-img-reg]:{{ BASE_PATH }}/images/2012/fractal-tree-10.jpg
+[fractal10-img-reg]:/images/2012/fractal-tree-10.jpg
 
 如果只是这种结构的话，查找的复杂度为O(log^2N),即logN的树高度乘以array的长度logN。可以通过增加`Forward Pointer`来加速查找速度，添加Forward Pointers之后的结构会变成如下：
 
 ![fractalforward][fractalforward-img-reg]
-[fractalforward-img-reg]:{{ BASE_PATH }}/images/2012/fractal-forward.jpg
+[fractalforward-img-reg]:/images/2012/fractal-forward.jpg
 
 通过添加`Forward Pointer`之后，查找的复杂度降低到了O(logN)
 
@@ -127,7 +127,7 @@ Rolling merge将记录的插入批量化了。并不是一个记录就进行一�
 具体的插入操作为开辟一块空的Temp arrays，然后进行merge操作。如下图所示：
 
 ![fractalinsert][fractalinsert-img-reg]
-[fractalinsert-img-reg]:{{ BASE_PATH }}/images/2012/fractal-insert.jpg
+[fractalinsert-img-reg]:/images/2012/fractal-insert.jpg
 
 平均的插入复杂度为O(logN/B)
 
@@ -140,6 +140,6 @@ Rolling merge将记录的插入批量化了。并不是一个记录就进行一�
 Spanner是一个多月前Google在OSDI会议上公开的一个分布式系统。Spanner与其他系统的比较：
 
 ![Spanner][spanner-img-reg]
-[spanner-img-reg]:{{ BASE_PATH }}/images/2012/spanner.jpg
+[spanner-img-reg]:/images/2012/spanner.jpg
 
 从上图的比较中可见Spanner的强大。Spanner的这篇论文我还在看，等看完了再跟大家分享！
