@@ -3,12 +3,6 @@ layout: page
 title: About ShiHongzhi
 ---
 ## 我是谁 ##
-爱骑行，天秤闷骚男。
-
-喜欢恬静淡雅且美得没有攻击性的女人，心中的女神:[汤唯](http://www.douban.com/photos/album/48712622/)。
-
-自以为是个Geek，不过是伪的。
-
 不想当产品经理的码农不是好的研发工程师！
 
 目前忙着毕业，明年毕业去`网易有道`工作。
@@ -41,10 +35,6 @@ shi65881583@gmail.com
 [新浪微博](http://weibo.com/shiboss)
 
 [豆瓣](http://www.douban.com/people/shiboss/)
-
-## 最近看过 ##
-
-<div><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="650" height="505" id="passing" > <param name="movie" value="http://www.douban.com/doushow/shiboss/collection_latest_movie|book_15_5_medium_logo_noself/doushow.swf" /> <param name="quality" value="high" /> <param name="scale" value="noscale"/> <param name="align" value="tl"/> <param name="wmode" value="transparent"/> <embed src="http://www.douban.com/doushow/shiboss/collection_latest_movie|book_15_5_medium_logo_noself/doushow.swf" wmode="transparent" quality="high" width="650" height="505" name="passing" scale="noscale" align="tl" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> </object></div>
 
 <div id="disqus_container"> 
     <div id="disqus_thread"></div>

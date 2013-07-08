@@ -2,23 +2,42 @@
 layout:           default
 ---
 <div id="head">
-    <div id="header">
-        <div class="nav right">
-            <a href="/gossip" title="修养" >屌丝的自我修养</a>
-            <a href="/tech" title="技术">屌丝的技术积累</a>
-            <a href="/project" title="项目">屌丝的目前成果</a>
-            <a href="/about" title="About ShiHongzhi" >关于本人</a>
-            <a href="{{ site.feed }}" rel="feed" title="Subscribes The Feed" target="_blank">订阅RSS</a>
-        </div><!-- .nav -->
-    </div><!-- #header -->
-</div><!-- #head -->
+    <div class='logo'>
+        <a href="/" title="Home">BeiYuu.com</a>
+    </div>
+</div>
+
 <div id="content">
     {{ content }}
 </div><!-- #content --> 
-<div id="footer">
-    <div class="copyright right">
-        {% for line in site.copyright %}
-        <p>{{ line }}</p>
-        {% endfor %}
+
+<div id="about">
+    <div class="about-content">
+        <div class="clearfix">
+            <div class="about-left">
+                <h2>Contact</h2>
+                <div class="weibo-con">
+                    <iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=75&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1855270953&verifier=375b89d6&colors=d6f3f7,262626,666666,0082cb,ecfbfd&dpc=1"></iframe>
+                </div>
+            </div>
+            <div class="about-left about-more">
+                <h2>Project</h2>
+                <p>
+                    <a href="https://npmjs.org/package/ynote" class="external" target="_blank">ynote-node</a><br/>
+                    <a href="http://hou.ap01.aws.af.cm/" class="external" target="_blank">Hou</a><br/>
+                </p>
+            </div>
+            <div class="about-left about-more">
+                <h2>About</h2>
+                <p>
+                    Working<a href="http://note.youdao.com" class="external" target="_blank">@有道云笔记</a><br/>
+                    Code<a href="https://github.com/shihognzhi" class="external" target="_blank">@GitHub</a><br/>
+                </p>
+            </div>
+        </div>
+
+        <div class="copyright right">
+            <p>Design by <a href="http://beiyuu.com/about" title="BeiYuu" target="_blank">BeiYuu</a> © 2013</p>
+        </div>
     </div>
-</div><!-- #footer -->
+</div>
