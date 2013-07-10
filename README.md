@@ -1,11 +1,5 @@
-#一点点说明
+#说明
 
-这是[BeiYuu.com](http://beiyuu.com)的源码，如果你看了[使用Github Pages建独立博客](http://beiyuu.com/github-pages/)，希望看下去哦：
+本博客代码fork自[BeiYuu.com](http://beiyuu.com)，你可以阅读`BeiYuu`的[使用Github Pages建独立博客](http://beiyuu.com/github-pages/)这篇博文，学习用Github建站。
 
-* 马上动手，很赞
-* 感谢认可
-* 推荐阅读：[我为什么写博客？](http://beiyuu.com/why-blog/)
-* 想复用我的设计，没问题，标个出处就好啦
-* 转载也没问题，标个出处呗少年
-* **最重要的，删掉统计代码哦~~~**
-* 恩，认真的童鞋最可爱啦~
+再次感谢[BeiYuu.com](http://beiyuu.com)
