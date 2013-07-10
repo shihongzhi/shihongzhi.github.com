@@ -22,16 +22,16 @@ layout:           default
             </div>
             <div class="about-left about-more">
                 <h2>Project</h2>
-                <p>
-                    <a href="https://npmjs.org/package/ynote" class="external" target="_blank">ynote-node</a><br/>
-                    <a href="http://hou.ap01.aws.af.cm/" class="external" target="_blank">Hou</a><br/>
-                </p>
+                {% for post in site.categories.project %}
+                    <a href="{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a><br/>
+                {% endfor %}
             </div>
             <div class="about-left about-more">
                 <h2>About</h2>
                 <p>
-                    Working<a href="http://note.youdao.com" class="external" target="_blank">@有道云笔记</a><br/>
-                    Code<a href="https://github.com/shihognzhi" class="external" target="_blank">@GitHub</a><br/>
+                    Working(F2E)<a href="http://douban.com/people/beiyuu" class="external" target="_blank">@Douban</a><br/>
+                    Code<a href="https://github.com/beiyuu" class="external" target="_blank">@GitHub</a><br/>
+                    Photo<a href="http://instagram.com/beiyuu/" class="external" target="_blank">@Instagram</a>
                 </p>
             </div>
         </div>
