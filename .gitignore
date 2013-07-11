@@ -2,3 +2,4 @@
 *~
 *.[oa]
 .DS_Store
+_site/*
