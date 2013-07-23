@@ -12,4 +12,4 @@ tags: css3
 
 关于这方面的知识，我做了一个的PPT，大致介绍了相关知识：[PPT](/css3ppt/css3transform.htm)
 
-这里还有一个别人分享的 [Demo](/css3ppt/demo.html) （通过回车键来展示效果，方向键控制前进后退）
+这里还有一个别人分享的 [Demo](/ppt/css3ppt/demo.html) （通过回车键来展示效果，方向键控制前进后退）

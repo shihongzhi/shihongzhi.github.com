@@ -1,0 +1,69 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#container {
+    background-color: rgba(127, 127, 127, 0.2);
+    border: 10px rgba(127, 127, 127, 0.2) solid;
+    border-radius: 5px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+}
+.slide {
+    position: absolute;
+    box-shadow: 0 0 2px 1px blue, 0 0 1px 2px blue inset;
+    background-color: white;
+    display: none;
+    left: 0px;
+    right: 0px;
+    -webkit-transition: all 0.5s;
+    line-height: 200px;
+    font-size: 100px;
+    text-align: center;
+    opacity: 0;
+}
+.slide:before {
+    content: "NO." attr(seq);
+    position: absolute;
+    padding: .5em;
+    top: 0;
+    left: 0;
+    font: 16px/1.5 consolas;
+    color: gray;
+}
+#container,
+.slide{
+    width: 500px;
+    height: 500px;
+}
+
+.current,
+.next,
+.prev {
+    display: block;
+}
+.test .next,
+.test .current,
+.test .prev {
+    opacity: 0.5;
+}
+.next {
+    z-index: 3;
+}
+.prev {
+    z-index: 1;
+}
+.current {
+    opacity: 1;
+    z-index: 2;
+}
+.active {
+    color: black;
+}
