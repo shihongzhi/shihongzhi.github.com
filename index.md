@@ -20,15 +20,15 @@ layout: home
             </li>
         {% endfor %}
         </ul>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- game -->
-        <ins class="adsbygoogle"
-            style="display:inline-block;width:320px;height:50px"
-            data-ad-client="ca-pub-8742914201265709"
-            data-ad-slot="4781199279"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- game -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:50px"
+     data-ad-client="ca-pub-8742914201265709"
+     data-ad-slot="4781199279"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </div>
     <div class="aside">
     </div>
